@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Motiva Sans', sans-serif, Arial;
+  background-color: #1b2838;
+  color: #c7d5e0;
+}
+
+.navbar {
+  background-color: #171a21;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.navbar a {
+  color: #c7d5e0;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar a:hover { color: #ffffff; }
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to right, #2a475e, #1b2838);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #799905 5%, #536904 95%);
+  color: #d2efa9;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.btn:hover { background: linear-gradient(to bottom, #8ed600 5%, #6b9e00 95%); }
+.btn-logout { background: #4c5866; color: white; }
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+input {
+  background-color: #32353c;
+  border: 1px solid #000;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+}
